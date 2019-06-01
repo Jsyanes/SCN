@@ -32,8 +32,8 @@
         
         
         
-       <!--header top-->
-       <div class="header-top">
+      <!--header top-->
+      <div class="header-top">
             <div class="container clearfix">
                 <div class="top-left">
                     <h6>Horas de Trabajo : Lunes a Viernes - 8am a 5pm</h6>
@@ -194,32 +194,52 @@
                         <div class="row  " >
                             <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                                 <div class="team-member">
-                                    <form action="#" ></form>
+                                    <form action="#" >
                                     <div class="contents text-center">
-                                        <h4>Login</h4>
+                                        <h4>Registro</h4>
                                         <!-- name -->
-                                        <div class="col-md-12">
+                                        <div class="col-md-6">
+                                            <input type="text" name="txtName" class="form-control main" placeholder="Nombre" required>
+                                            <br>
+                                        </div>
+                                        <!-- lastname -->
+                                        <div class="col-md-6">
+                                            <input type="text" name="txtApellido" class="form-control main" placeholder="Apellido" required>
+                                            <br>
+                                        </div>
+                                        <!-- birthday -->
+                                        <div class="col-md-6">
+                                            <input type="date" name="txtBirthday" class="form-control main" placeholder="Fecha Nacimiento" required>
+                                            <br>
+                                        </div>
+                                         <!-- Phone -->
+                                         <div class="col-md-6">
+                                            <input type="text" name="txtPhone" class="form-control main" placeholder="Telefono" required>
+                                            <br>
+                                        </div>
+                                        <!-- user -->
+                                        <div class="col-md-6">
                                             <input type="text" name="txtUser" class="form-control main" placeholder="User" required>
                                             <br>
                                         </div>
                                         
-                                        <!-- email -->
-                                        <div class="col-md-12">
+                                        <!-- password -->
+                                        <div class="col-md-6">
                                             <input type="password" name="txtPassword" class="form-control main" placeholder="Password" required>
                                             <br>
                                         </div>
                                         
                                         <!-- submit button -->
-                                        <div class="col-md-5">
-                                            <a href="">Recuperar contrasena</a>
+                                        <div class="col-md-6 text-center">
+                                            <small>¿Ya tienes cuenta con nosotros?</small>
+                                            <br>
+                                            <a href="login.html">Inicia Sesion</a>
                                         </div>
-                                        <div class=" col-md-7 text-right" style="padding-bottom: 20px">
-                                                <a href="index-paciente.html" class="btn btn-style-one">Login</a>
+                                        <div class=" col-md-6 text-right" style="padding-bottom: 20px">
+                                            <button class="btn btn-style-one" type="submit">Listo</button>
                                             
                                         </div>
-                                        <div class="col-md-12">
-                                            <a href="registro.html">¡Registrate!</a>
-                                        </div>
+                                       
                                     </div>
                                 </form>
                             </div>
