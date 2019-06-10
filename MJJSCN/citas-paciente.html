@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Medic | Medical HTML Template</title>
+    <title>Clínica Naturista Online</title>
     
     
     <!-- mobile responsive meta -->
@@ -128,7 +128,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="index-paciente.html">Home</a>
+                        <a href="index-paciente.html">Inicio</a>
                     </li>
                     <li>
                         <a href="citas-paciente.html">Citas</a>
@@ -186,36 +186,54 @@
     <!--End Main Header -->
     
 
-    <!--Page Title-->
-<section class="page-title text-center" style="background-image:url(images/background/3.jpg);">
+    
+    
+<section class="team-section section">
+    <!-- container start -->
     <div class="container">
-        <div class="title-text">
-            <h1>Citas</h1>
-            <ul class="title-menu clearfix">
-                <li>
-                    <a href="index-paciente.html">home &nbsp;/</a>
-                </li>
-                <li>Citas</li>
-            </ul>
-        </div>
-    </div>
-</section>
-<!--End Page Title-->
-    
-    
-    <section class="team-section section">
-        <!-- container start -->
-        <div class="container">
-            <div class="col-md-12 ">
-                <div class="team-member">
-                    <div class="contents text-center">
-                            <h3>Bienvenido</h3>
-                        
-                </div>
+        <div class="col-md-12 ">
+            <div class="team-member">
+                <div class="contents text-center">
+                        <h4>Agendar Citas</h4>
+                    <div class="row">
+                       
+                        <div class="col-xs-12 col-md-12">
+                                <div class="row">
+                                        <div class="col-md-6">
+                                            
+                                                <input type="date" name="txtDate" class="form-control main" placeholder="Fecha de cita" required>
+                                                <br>
+                                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="txtName" class="form-control main" placeholder="Nombre" required>
+                                <br>
+                            </div>
+                            <!-- lastname -->
+                            <div class="col-md-6">
+                                <input type="text" name="txtApellido" class="form-control main" placeholder="Apellido" required>
+                                <br>
+                            </div>
+                            <!-- birthday -->
+                            <div class="col-md-12">
+                                    <textarea type="text" name="txtDescripción" class="form-control main" placeholder="Descripción" required></textarea>
+                                    <br>
+                                </div>
+                            
+                          
+                            
+                           
+                            <div class=" col-md-12 text-right" style="padding-bottom: 20px">
+                                    <button class="btn btn-style-one" type="submit">Agendar cita</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
-    <!-- container end -->
+</div>
+<!-- container end -->
 </section>
 
 

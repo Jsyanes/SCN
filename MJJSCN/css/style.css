@@ -226,12 +226,12 @@ li {
   padding: 140px 0 70px;
   text-align: center;
   color: #fff;
-  position: relative;
+  position: fixed;
 }
 
 .single-page-header:before {
   background: rgba(0, 0, 0, 0.5);
-  position: absolute;
+  position: fixed;
   content: '';
   top: 0;
   right: 0;
